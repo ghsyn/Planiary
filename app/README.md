@@ -17,5 +17,6 @@ P.S Fragment가 아닌 다른 액티비티로 Intent 했을 때에도 Bottom nav
 - 앞으로 식물이름 자동 완성 기능을 구현할 예정
 
 #2023-01-30
+
 회원 등록 및 로그인 기능 동작 완료
 Main에서 BackButton 누르면 로그아웃

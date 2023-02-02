@@ -67,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
                                 intent.putExtra("userName", userName);
                                 intent.putExtra("userAddress", userAddress);
                             } else {
-                                Toast.makeText(getApplicationContext(), "로그인 실패", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "아이디 또는 비밀번호가 맞지 않거나, 존재하지 않습니다.", Toast.LENGTH_LONG).show();
                                 return;
                             }
                         } catch (JSONException e) {
